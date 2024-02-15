@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Martel+Sans:wght@600&family=Poppins:wght@400;600&display=swap');
+
 *{
+    font-family: "Poppins", sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -40,4 +43,33 @@ nav img{
 nav button{
     position: relative;
     z-index: 10;
+}
+
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+}
+
+.hero :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero :nth-child(2){
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero :nth-child(3){
+    font-size: 24px;
+    font-weight: 400;
+}
+.hero :nth-child(4){
+    font-size: 24px;
+    font-weight: 400;
 }
