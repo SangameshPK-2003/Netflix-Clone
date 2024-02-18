@@ -6,17 +6,21 @@
     margin: 0;
 }
 
+body{
+    background-color: black;
+}
+
 .main{
     background-image: url(./assets/images/bg-image.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    height: 100vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     opacity: 0.44;
     position: absolute;
@@ -57,19 +61,19 @@ nav button{
     gap: 20px;
 }
 
-.hero :first-child{
+.hero > :first-child{
     font-weight: 900;
     font-size: 48px;
 }
-.hero :nth-child(2){
+.hero > :nth-child(2){
     font-weight: 900;
     font-size: 48px;
 }
 .hero :nth-child(3){
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 .hero :nth-child(4){
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
