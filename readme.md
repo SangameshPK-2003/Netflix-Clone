@@ -1,5 +1,8 @@
 # Netflix Clone Project
 
+### Demo 
+   - To see demo of this project, simply visit [Netflix-Clone](https://sangameshpk-2003.github.io/Netflix-Clone/)
+
 ## Introduction
 
 Welcome to the Netflix Clone project! This project is a recreation of the popular streaming platform Netflix using HTML and CSS. The aim of this project is to showcase your skills in web development by replicating the user interface and design of Netflix.
